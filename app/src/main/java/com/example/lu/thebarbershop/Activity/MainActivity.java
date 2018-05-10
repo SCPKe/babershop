@@ -133,4 +133,8 @@ public class MainActivity extends AppCompatActivity {
     public void init(){}
     public void onlistener(){}
     public void test(){}
+
+    public void setBtnFragmentDynameic(Button btnFragmentDynameic) {
+        BtnFragmentDynameic = btnFragmentDynameic;
+    }
 }
